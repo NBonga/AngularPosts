@@ -1,0 +1,46 @@
+<!--<div class="container">
+    <div class="row">
+      <div class="col wrapper">
+<div class="card" style="width: 18rem;" *ngFor="let dataItem of newData">
+  <img class="card-img-top" src="{{dataItem.image}}" alt="Card image cap" width="200px" height="200px">
+  <div class="card-body">
+    <h5 class="card-title">{{dataItem.title}}</h5>
+    <h3 class="card-text">{{dataItem.category}}</h3>
+    <h4 class="card-text">R{{dataItem.price}}</h4>
+    <p class="card-text">{{dataItem.description}}</p>
+    <a href="#" class="btn btn-primary">Add to cart</a>
+  </div>
+  </div>
+      </div>
+</div> -->
+<br>
+<br>
+<h1 class=""> Product List</h1>
+<br>
+<br>
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">Image</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Category</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngfor="let item of product">
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+        </tbody>
+      </table>
+
+</div>
